@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <link rel="stylesheet" href="text.css" />
+    <link rel="icon" type="image" href="text-size.png" />
+  </head>
+  <body>
+    <h3>Write Your Message</h3>
+    <div id="color" class="text">
+      <textarea
+        oninput="count()"
+        placeholder="start typing message"
+        maxlength="200"
+      ></textarea>
+      <div class="end"><span id="counter">0</span>/200</div>
+    </div>
+    <script>
+      let count = () => {
+        let cone = document.querySelector("textarea");
+        let y = cone.value.length;
+        document.getElementById("counter").innerHTML = y;
+      };
+    </script>
+  </body>
+</html>
