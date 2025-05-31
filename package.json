@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/abye12345/restricted-textarea/issues"
   },
-  "homepage": "https://github.com/abye12345/restricted-textarea#readme",
+  "homepage": "https://abye12345.github.io/restricted-textarea/",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
