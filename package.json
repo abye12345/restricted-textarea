@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d . -b main",
+    "deploy": "gh-pages -d . -b gh-pages",
     "build": "echo 'Build step completed'"
   },
   "repository": {
