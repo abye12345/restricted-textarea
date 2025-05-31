@@ -1,0 +1,27 @@
+{
+  "name": "restricted-textarea",
+  "version": "1.0.0",
+  "description": "A simple web page with a styled textarea that restricts input to 200 characters and displays a live character counter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "build": "echo 'Build step completed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abye12345/restricted-textarea.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abye12345/restricted-textarea/issues"
+  },
+  "homepage": "https://github.com/abye12345/restricted-textarea#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
