@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d . -b main",
-    "build": "echo 'Build step completed'"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
